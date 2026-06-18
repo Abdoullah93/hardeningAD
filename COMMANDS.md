@@ -23,4 +23,6 @@ Vérifier spécifiquement le compte de service et son SPN (Kerberoastable) :
 Get-ADUser -Identity "svc-backup" -Properties ServicePrincipalNames | Select-Object Name, ServicePrincipalNames
 ```
 Vérifier les membres du groupe "Admins du domaine" (pour valider l'élévation de bdupont) :
+```
 Get-ADGroupMember -Identity "Admins du domaine" | Select-Object Name, SamAccountName
+```
