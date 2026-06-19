@@ -821,7 +821,7 @@ Nom : snapshot_post_ImportGPO_YYYY-MM-DD
 
 Cette remédiation applique le modèle de délégation au niveau des **ACLs Active Directory**. Elle contrôle qui peut modifier quels objets dans l'AD. C'est la remédiation la plus impactante — une erreur peut verrouiller des accès légitimes.
 
-> ⚠️ **Manipulation à haut risque.** Ne l'appliquez que si votre enseignant le valide. Snapshot obligatoire.
+> ⚠️ **Manipulation à haut risque.**. Snapshot obligatoire.
 
 #### 📸 Snapshot pré (CRITIQUE)
 
@@ -1038,9 +1038,9 @@ Finding PK corrigé : [Avant / Après]
 
 > 💡 **Le but pédagogique est l'analyse, pas l'exécution.** Documenter *pourquoi* vous faites chaque action est plus important que d'exécuter le plus grand nombre de remédiations.
 
-> ⚠️ **En cas d'erreur :** coupez l'activité, restaurez le snapshot, informez l'enseignant, et joignez les logs d'erreur à votre rapport. Une restauration bien documentée vaut mieux qu'une exécution hasardeuse.
+> ⚠️ **En cas d'erreur :** coupez l'activité, restaurez le snapshot, et joignez les logs d'erreur à votre rapport. Une restauration bien documentée vaut mieux qu'une exécution hasardeuse.
 
-> 🔒 **Les remédiations intrusives** (modification du schéma AD, Forest/Domain Functional Level upgrade) ne doivent être réalisées qu'avec l'accord explicite de l'enseignant et uniquement après snapshot complet.
+> 🔒 **Les remédiations intrusives** (modification du schéma AD, Forest/Domain Functional Level upgrade) ne doivent être réalisées uniquement après snapshot complet.
 
 ---
 
