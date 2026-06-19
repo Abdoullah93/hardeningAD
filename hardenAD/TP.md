@@ -43,7 +43,7 @@
 | Répertoire de travail | `C:\HAD\` |
 | Répertoire des rapports | `C:\HAD\Reports\` |
 
-### Installation de l'environnement
+### Installation de l'environnement / Privilégier l'installation via la release, lien dans ../COMMANDS.md
 
 ```powershell
 # 1. Cloner HardenAD
