@@ -175,7 +175,7 @@ Get-ADOrganizationalUnit -Filter * |
 # Exporter l'inventaire
 Get-ADUser -Filter * -Properties * |
     Select-Object Name, SamAccountName, Enabled, PasswordNeverExpires, ServicePrincipalNames |
-    Export-Csv -Path "C:\HAD\Reports\baseline_inventory.csv" -NoTypeInformation -Encoding UTF8
+    Export-Csv -Path "C:\HAD\HardenAD-HardenAD-2.9.9v2\Reports" -NoTypeInformation -Encoding UTF8
 ```
 
 ---
